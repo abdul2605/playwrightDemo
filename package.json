@@ -1,0 +1,19 @@
+{
+  "name": "playwright-101-testmuai-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright 101 certification assignment — TestMu AI Selenium Playground test suite",
+  "scripts": {
+    "test": "playwright test",
+    "test:cloud": "cross-env RUN_ON=cloud playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^20.19.43",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.5.4"
+  }
+}
